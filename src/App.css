@@ -1,0 +1,48 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content:left;
+  align-items: center;
+}
+
+.onglet {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;  
+  align-items: center;
+}
+
+
+.profil {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  
+  p {
+    width: 50%;
+    align-self: center;
+  }
+}
+
+.photo {
+  border-radius: 4px;
+  width: 260px;
+  display: block;
+}
+
+.data-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 50px;
+  margin-top: 90px;
+}
+
+.main-data {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
