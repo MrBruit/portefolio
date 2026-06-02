@@ -9,10 +9,10 @@ const projetsData = [
   },
   {
     id: 2,
-    title: "Work Reward - en cours",
+    title: "Scribble - en cours",
     img: "",
     techno: [],
-    description: "Application de gestion de temps de travail, avec une personalisation de l'interface.",
+    description: "Jeu textuel sur navigateur dans le style de ZORK.",
     link: ""
   },
   {
