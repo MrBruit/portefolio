@@ -64,9 +64,9 @@ function Card () {
 </a>
                     <a href='https://www.linkedin.com/in/florent-goujon-903308387/' target='blank' className='link'><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
 </a>
-                    <button type='button' onClick={copyToClipboardDiscord}><img src="src/assets/images/discord.png" alt="Discord's logo" /></button>
+                    <button type='button' onClick={copyToClipboardDiscord}><img src="/images/discord.png" alt="Discord's logo" /></button>
                     <a href='src/assets/data/CV_Florent_GOUJON.pdf'  target="_blank"
-  rel="noopener noreferrer" className='link'><img src="src/assets/images/cv.png" alt="Discord's logo" /></a>
+  rel="noopener noreferrer" className='link'><img src="/images/cv.png" alt="Discord's logo" /></a>
                 </div>
             </section>
         </>

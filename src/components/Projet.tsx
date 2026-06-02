@@ -1,5 +1,5 @@
 import './projet.css';
-import projetsData from "../assets/data/data";
+import projetsData from "../../public/data/data";
 
 function Projet() {
   return (
