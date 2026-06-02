@@ -41,7 +41,7 @@ function Card () {
         <>
             <section className="card">
                 <h1>Florent Goujon</h1>
-                <img className='photo' src="/src/assets/images/portrait.png" alt="My profil picture" />
+                <img className='photo' src="/images/portrait.png" alt="My profil picture" />
                 <div className='info'>
                     <h2>Développeur Full Stack</h2>
                     <button  type='button' className='mail' onClick={copyToClipboardEmail}>goujflo@gmail.com</button>

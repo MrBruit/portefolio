@@ -2,7 +2,7 @@ const projetsData = [
   {
     id: 1,
     title: "Billy - en cours",
-    img: "", // Ajoutez votre lien d'image ici
+    img: "",
     techno: [],
     description: "Application de gestion de bibliothèque et de suivi de lecture.",
     link: ""
@@ -18,7 +18,7 @@ const projetsData = [
   {
     id: 3,
     title: "Pet&Vet - 2026",
-    img: "/src/assets/images/pet&vet.png",
+    img: "/images/petandvet.png",
     techno: ["react-plain", "typescript-plain", "figma-plain","mysql-plain","express-original"],
     description: "Application de carnet de santé animal, disponible pour propriétaire et vétérinaire.",
     link: "https://p3-petvet.onrender.com/"
@@ -26,7 +26,7 @@ const projetsData = [
   {
     id: 4,
     title: "No Time To Eat - 2025",
-    img: "/src/assets/images/notimetoeat.png",
+    img: "/images/notimetoeat.png",
     techno: ["react-plain", "typescript-plain", "figma-plain"],
     description: "Application de recette de cuisine, avec recherche par mot clef d'ingrédients ou de recette.",
     link: "https://magic-fridge-one.vercel.app/"
@@ -34,7 +34,7 @@ const projetsData = [
   {
     id: 5,
     title: "Readsponsive - 2025",
-    img: "/src/assets/images/readponsive.png",
+    img: "/images/readponsive.png",
     techno: ["html5-plain", "css3-plain"],
     description: "Page HTML de fiche de lecture réalisé en 6h pour une première expérience.",
     link: "https://mrbruit.github.io/Readsponsive./"

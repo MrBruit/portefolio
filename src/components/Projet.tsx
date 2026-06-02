@@ -12,7 +12,7 @@ function Projet() {
           <div className="projet-card" key={projet.id}>
             <h3>{projet.title}</h3>
             <div className="illus-container">
-                <img src={projet.img || "/src/assets/images/construction.png"} alt={`Miniature de ${projet.title}`} />
+                <img src={projet.img || "/images/construction.png"} alt={`Miniature de ${projet.title}`} />
                 
                 {projet.techno.length > 0 && (
                 <div className="technos-container">
@@ -24,7 +24,7 @@ function Projet() {
             </div>
             <div className="description-link">
                 <p>{projet.description}</p>
-                <a href={projet.link} target='blank'><img src="/src/assets/images/lien-externe3.png" alt="lien externe" /></a>
+                <a href={projet.link} target='blank'><img src="/images/lien-externe3.png" alt="lien externe" /></a>
             </div>
           </div>
         ))}
